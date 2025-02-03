@@ -19,11 +19,11 @@
 
 [Figma](https://www.figma.com/design/vXiOC9q7t3WcLdraKv8OET/All4One?node-id=0-1&p=f&t=7KT1uYNLazR1rIWP-0)
 
-[Github-Repo]()
+[Github-Repo](https://github.com/mkheck13/react-all-4-one)
 
 [Back-End Repo](https://github.com/mkheck13/AllForOneApi)
 
-[Vercel]()
+[Vercel](https://react-all-4-one.vercel.app/)
 
 ## FeedBack/Peer Review: 
 
