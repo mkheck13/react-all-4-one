@@ -6,19 +6,18 @@ const HomeComponent = () => {
     return (
         <div className='bg-image w-screen h-screen'>
             <h1>All 4 One</h1>
-            <Button color="failure"><Link to='/hello'>Say Hello</Link></Button>
+            
+            <Link to='/hello'><Button color="failure">Say Hello</Button></Link>
             <Link to='/addNum'><Button color="failure">Add Num</Button></Link>
+            <Link to='/askQuestion'><Button color="failure">Asking Questions</Button></Link>
+            <Link to='/greater'><Button color="failure">Greater Then</Button></Link>
+            <Link to='/madlib'><Button color="failure">Madlib</Button></Link>
+            <Link to='/magic8'><Button color="failure">Magic 8</Button></Link>
+            <Link to='/oddEven'><Button color="failure">Odd or Even</Button></Link>
+            <Link to='/picker'><Button color="failure">Restaurant Picker</Button></Link>
+            <Link to='/revNum'><Button color="failure">Rev Num</Button></Link>
+            <Link to='/revAlpha'><Button color="failure">Rev Alpha</Button></Link>
 
-            {/* <a href="/hello">Say Hello</a> */}
-            {/* <a href="/addNum">Add Two Numbers</a>
-            <a href="/askQuestion">Asking Questions</a>
-            <a href="/greater">Greater Then</a>
-            <a href="/madlib">Madlib</a>
-            <a href="/magic8">Magic 8</a>
-            <a href="/oddEven">Odd or Even</a>
-            <a href="/picker">Restaurant Picker</a>
-            <a href="/revNum">Rev Num</a>
-            <a href="/revAlpha">Rev Alpha</a> */}
         </div>
     )
 

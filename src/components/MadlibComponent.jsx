@@ -1,4 +1,6 @@
 import { Card } from "flowbite-react"
+import { Link } from "react-router-dom";
+import { Button } from "flowbite-react";
 
 const MadlibComponent = () => {
 
@@ -9,7 +11,7 @@ const MadlibComponent = () => {
             Madlib Component
             </h5>
 
-            <a className="text-black" href="/">Home screen</a>
+            <Link to='/'><Button color="failure">Home</Button></Link>
         </Card>
     </div>
     )

@@ -1,4 +1,6 @@
 import { Card } from "flowbite-react"
+import { Link } from "react-router-dom";
+import { Button } from "flowbite-react";
 
 const SayHelloComponent = () => {
 
@@ -11,7 +13,7 @@ const SayHelloComponent = () => {
                 Say Hello Component
             </h5>
 
-            <a className="text-black" href="/">Home screen</a>
+            <Link to='/'><Button color="failure">Home</Button></Link>
         </Card>
             </div>
 
