@@ -11,6 +11,11 @@ const SayHelloComponent = () => {
     const getResult = async () => {
         const response = await sayHelloFetch(userName);
         setResult(response);
+        getClear();
+    }
+
+    const getClear = () => {
+        setUserName('');
     }
 
     return (
@@ -22,7 +27,7 @@ const SayHelloComponent = () => {
                 Say Hello Component
             </h5>
             <p className="text-black">result here:{result} </p>
-            <input type="text" placeholder="Enter Name" onChange={(e) => setUserName(e.target.value)} />
+            <input className="text-black" type="text" placeholder="Enter Name" value={userName} onChange={(e) => setUserName(e.target.value)} />
             <Button onClick={() => getResult()}>Submit</Button>
 
             <Link to='/'><Button color="failure">Home</Button></Link>
