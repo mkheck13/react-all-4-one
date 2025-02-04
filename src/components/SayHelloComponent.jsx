@@ -4,7 +4,7 @@ const SayHelloComponent = () => {
 
     return (
         
-        <div className="flex justify-center bg-image bg-cover">
+        <div className="flex justify-center bg-image bg-cover bg-fixed w-screen">
             <div className="flex justify-center m-52">
             <Card href="#" className="max-w-sm">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
