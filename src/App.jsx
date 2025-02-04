@@ -8,7 +8,7 @@ function App() {
       <h1>Home Page</h1>
       <a href="/hello">Say Hello</a>
       <a href="/addNum">Add Two Numbers</a>
-      <a href="askQuestion">Asking Questions</a>
+      <a href="/askQuestion">Asking Questions</a>
       <a href="/greater">Greter Then</a>
       <a href="/madlib">Madlib</a>
       <a href="/magic8">Magic 8</a>
