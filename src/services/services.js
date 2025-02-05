@@ -55,8 +55,22 @@ const oddOrEvenFetch = async (input) => {
 }
 
 // Restaurant Picker Fetch
-const restaurantPickerFetch = async (pizzaMexicanFastFood) => {
-    const response = await fetch(`https://thisall4oneapi-bbfxghbaeaegbuc3.westus-01.azurewebsites.net/RestaurantPicker/RestaurantPicker/${pizzaMexicanFastFood}`);
+const pizzaPickerFetch = async (pizzaMexicanFastFood) => {
+    const response = await fetch(`https://thisall4oneapi-bbfxghbaeaegbuc3.westus-01.azurewebsites.net/RestaurantPicker/RestaurantPicker/pizza`);
+    const data = await response.text();
+
+    return data;
+}
+
+const mexicanPickerFetch = async (pizzaMexicanFastFood) => {
+    const response = await fetch(`https://thisall4oneapi-bbfxghbaeaegbuc3.westus-01.azurewebsites.net/RestaurantPicker/RestaurantPicker/mexican`);
+    const data = await response.text();
+
+    return data;
+}
+
+const fastFoodPickerFetch = async (pizzaMexicanFastFood) => {
+    const response = await fetch(`https://thisall4oneapi-bbfxghbaeaegbuc3.westus-01.azurewebsites.net/RestaurantPicker/RestaurantPicker/fastfood`);
     const data = await response.text();
 
     return data;
@@ -79,4 +93,4 @@ const revNumFetch = async (userNum) => {
 }
 
 // Exports
-export { sayHelloFetch, addTwoNumFetch, askingQuestionsFetch, greaterThenFetch, madlibFetch, magic8BallFetch, oddOrEvenFetch, restaurantPickerFetch, revAlphaFetch, revNumFetch }
+export { sayHelloFetch, addTwoNumFetch, askingQuestionsFetch, greaterThenFetch, madlibFetch, magic8BallFetch, oddOrEvenFetch, pizzaPickerFetch, mexicanPickerFetch, fastFoodPickerFetch, revAlphaFetch, revNumFetch }
