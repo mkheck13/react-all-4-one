@@ -35,8 +35,6 @@ const AddTwoNumComponent = () => {
         </Card>
     </div>
     )
-
-
 }
 
 export default AddTwoNumComponent;
