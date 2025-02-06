@@ -19,7 +19,7 @@ const Magic8BallComponent = () => {
     }
 
     return (
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-32">
         <Card href="#" className="max-w-sm">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Magic 8 Ball Component

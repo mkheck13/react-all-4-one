@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 
 const HomeComponent = () => {
   return (
-    <div className="font-sue text-gray-300 bg-image bg-cover bg-fixed w-screen h-screen">
+    <div className="font-sue text-gray-300  w-screen h-screen">
 
 
-        <h1 className=" text-5xl  my-20 flex justify-center md:text-9xl sm:text-7xl">All 4 One</h1>
+
+
+        <h1 className="text-5xl my-20 flex justify-center md:text-9xl sm:text-7xl">All 4 One</h1>
 
 
         <main>
